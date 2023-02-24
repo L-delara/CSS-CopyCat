@@ -9,8 +9,59 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Fake Spotify</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>hello world</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Your Library</a></li>
+        <li><a href="#">Create Playlist</a></li>
+        <li><a href="#">Liked Songs</a></li>
+      </ul>
+      <hr />
+      <ul>
+        <li><a href="#">Medieval LoFi For Closing a Tavern</a></li>
+        <li><a href="#">Gav's Homemade Irish Jam</a></li>
+        <li><a href="#">Emo Forever</a></li>
+      </ul>
+      <h4>Install App</h4>
+    </nav>
+    <main>
+      <div class="now-playing">
+        <nav>
+          <button>◀</button>
+          <button>Profile Name</button>
+        </nav>
+        <main>
+          <img src="./src/album-art.jpg" alt="" />
+          <h2 class="playlist-type">Playlist</h2>
+          <h1 class="playlist-name">Medieval LoFi For Closing a Tavern</h1>
+          <p class="playlist-description">
+            Based on the TikTok... You already know it.
+          </p>
+          <div class="playlist-stats">
+            <span class="artist">Solas Composer</span
+            ><span class="break">•</span
+            ><span class="like-count">1961 likes</span
+            ><span class="break">•</span>
+            <span class="song-count">93 songs,</span>
+            <span class="hours">about 3 hr and 30 min</span>
+          </div>
+          <div class="play">
+            <button class="go">▶</button>
+            <button class="pause">⏸</button>
+            <button class="like">💚</button>
+            <button class="play-options">•••</button>
+          </div>
+        </main>
+      </div>
+    </main>
   </body>
 </html>
