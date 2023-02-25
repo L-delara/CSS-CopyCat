@@ -3,6 +3,20 @@ body {
   background: linear-gradient(
     180deg,
     rgba(72, 95, 193, 1) 17%,
-    rgba(109, 194, 255, 1) 83%
+    rgb(62, 155, 221) 83%
   );
+
+  background-attachment: fixed;
+}
+h1 {
+  color: rgba(233, 237, 255, 0.9);
+}
+img {
+  max-width: 250px;
+  max-height: 250px;
+}
+nav:active {
+  color: rgba(233, 237, 255, 0.9);
+  font-weight: 500;
+  text-decoration: underline;
 }
