@@ -1,3 +1,8 @@
-h1 {
-  color: blueviolet;
+body {
+  background: rgb(72, 95, 193);
+  background: linear-gradient(
+    180deg,
+    rgba(72, 95, 193, 1) 17%,
+    rgba(109, 194, 255, 1) 83%
+  );
 }
